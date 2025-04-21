@@ -1,10 +1,11 @@
 # Ejercicios en JS
 
-Los ejercicios del 1 al 4 se ejecutan por consola con el comando:  
+Los ejercicios del 1 al 4 se pueden ejecutar por consola con el comando:  
 `node <nombre-del-script>`
 
-Los ejercicios del 5 al 8 tienen su propio html donde se meustran.  
-También se puede acceder a cada uno desde su link en index.html.
+Los ejercicios del 5 al 8 tienen su propio html donde se muestra el funcionamiento.  
+
+A todos los ejercicios se puede acceder desde un index.html. Los primeros se muestran allí mismo y el botón se deshabilita para evitar lineas repetidas. Los ejercicios del 5 en adelante se muestran en una nueva pestaña y se pueden abrir las veces que quieran.
 
 ## Ejercicio 1
 - Filtrar Números Pares  
