@@ -15,8 +15,20 @@ function obtenerNumerosPares(numeros) {
 }
 
 let soloPares = obtenerNumerosPares(numeros);
+let respuesta = `Del array original: [${numeros}], obtenemos los numeros pares: ${soloPares}`;
+
+function mostrarEjercicio1() {
+    let divEjercicio1 = document.getElementById("divEj-01");
+    let parrafoEjercicio1 = document.createElement("p");
+    parrafoEjercicio1.textContent = respuesta;
+    divEjercicio1.appendChild(parrafoEjercicio1);
+
+    // Deshabilito el botón para no seguir escribiendo lineas repetidas
+    let btnEjercicio1 = document.getElementById("btnEj-01");
+    btnEjercicio1.disabled = true;
+}
 
 console.log("-----  EJERCICIO 1  -----");
-console.log(`Del array original: [${numeros}], obtenemos los numeros pares: ${soloPares}`);
+console.log(respuesta);
 console.log("\n");
 

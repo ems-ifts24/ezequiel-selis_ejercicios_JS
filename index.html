@@ -7,14 +7,53 @@
 </head>
 <body>
     <h1>Ejercicios en JavaScript</h1>
-    <h2>Indice de Ejercicios</h2>
-
-    <p>Seleccione el ejercicio que quiere ver:</p>
-    <ul>
-        <li><a href="./ej_5-Contador/ej_5-Contador.html">Ejercicio 5</a></li>
-        <li><a href="./ej_6-CambiaTexto/ej_6-CambiaTexto.html">Ejercicio 6</a></li>
-        <li><a href="./ej_7_y_8-Listas/ej_7y8-Listas.html">Ejercicio 7 y 8</a></li>
-    </ul>
+    <div id="divEj-01">
+        <h2>Ejercicio 1</h2>
+        <p><span style="font-weight: bold;">Filtrar Números Pares: </span>Crear una función que reciba un array con números del 0 al 10, y devuelva un nuevo array que contenga solo los números pares.</p>
+        <button id="btnEj-01" onclick="mostrarEjercicio1()">Mostrar Ejercicio 1</button>
+    </div>
     
+    <div id="divEj-02">
+        <h2>Ejercicio 2</h2>
+        <p><span style="font-weight: bold;">Calcular Promedio: </span>Escribir una función que tome un array de números y calcule el promedio.</p>
+        <button id="btnEj-02" onclick="mostrarEjercicio2()">Mostrar Ejercicio 2</button>
+    </div>
+    <div id="divEj-03">
+        <h2>Ejercicio 3</h2>
+        <p><span style="font-weight: bold;">Imprimir con Retraso: </span>Usar una función flecha y setTimeout para imprimir cada elemento de un array con un retraso de 1 segundo por elemento.</p>
+        <button id="btnEj-03" onclick="mostrarEjercicio3()">Mostrar Ejercicio 3</button>
+    </div>
+    <div id="divEj-04">
+        <h2>Ejercicio 4</h2>
+        <p><span style="font-weight: bold;">Operación con Callback: </span>Crear una función que reciba un callback y dos números, aplique el callback y devuelva el resultado. Implementar al menos dos callbacks diferentes.</p>
+        <button id="btnEj-04" onclick="mostrarEjercicio4()">Mostrar Ejercicio 4</button>
+    </div>
+    <div id="divEj-05">
+        <h2>Ejercicio 5</h2>
+        <p><span style="font-weight: bold;">Contador con Botones: </span>Crear un botón para incrementar y otro para decrementar un contador mostrado en un elemento div. Actualizar el texto del div al hacer click.</p>
+        <a href="./ej_5-Contador/ej_5-Contador.html" target="_blank">
+            <button id="btnEj-05">Mostrar Ejercicio 5</button>
+        </a>
+    </div>
+    <div id="divEj-06">
+        <h2>Ejercicio 6</h2>
+        <p><span style="font-weight: bold;">Cambiar Texto de Párrafos: </span>Seleccionar todos los elementos p de la página y cambiar su texto al hacer click en un botón.</p>
+        <a href="./ej_6-CambiaTexto/ej_6-CambiaTexto.html" target="_blank">
+            <button id="btnEj-06">Mostrar Ejercicio 6</button>
+        </a>
+    </div>
+    <div id="divEj-07-08">
+        <h2>Ejercicio 7 y 8</h2>
+        <p><span style="font-weight: bold;">Agregar Elementos a una Lista: </span>Crear una lista desordenada vacía y un botón. Al hacer click en el botón, agregar un nuevo elemento a la lista con un número que se incremente automáticamente.</p>
+        <a href="./ej_7_y_8-Listas/ej_7y8-Listas.html" target="_blank">
+            <button id="btnEj-07-08">Mostrar Ejercicio 7 y 8</button>
+        </a>
+    </div>
+
+
+    <script src="./ej_1-Pares.js" defer></script>
+    <script src="./ej_2-Promedio.js" defer></script>
+    <script src="./ej_3-Retardo.js" defer></script>
+    <script src="./ej_4-JavaScript.js" defer></script>
 </body>
 </html>

@@ -9,11 +9,26 @@ function operar(num1, num2, callback) {
 const sumar = (num1, num2) => num1 + num2;
 const multiplicar = (num1, num2) => num1 * num2;
 
-let resultadoSuma = operar(5, 10, sumar);
-let resultadoMultiplicacion = operar(5, 10, multiplicar);
+let resultadoSuma = `La suma de 5 y 10 es: ${operar(5, 10, sumar)}`;
+let resultadoMultiplicacion = `La multiplicacion de 5 y 10 es: ${operar(5, 10, multiplicar)}`;
+
+function mostrarEjercicio4() {
+    let divEjercicio4 = document.getElementById("divEj-04");
+    let parrafo = document.createElement("p");
+    parrafo.textContent = resultadoSuma;
+    divEjercicio4.appendChild(parrafo);
+    
+    parrafo = document.createElement("p");
+    parrafo.textContent = resultadoMultiplicacion;
+    divEjercicio4.appendChild(parrafo);
+
+    // Deshabilito el botón para no seguir escribiendo lineas repetidas
+    let btnEjercicio4 = document.getElementById("btnEj-04");
+    btnEjercicio4.disabled = true;
+}
 
 console.log("-----  EJERCICIO 4  -----");
-console.log(`La suma de 5 y 10 es: ${resultadoSuma}`);
-console.log(`La multiplicacion de 5 y 10 es: ${resultadoMultiplicacion}`);
+console.log(resultadoSuma);
+console.log(resultadoMultiplicacion);
 console.log("\n");
 
