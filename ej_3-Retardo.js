@@ -23,7 +23,7 @@ function mostrarEjercicio3() {
             li.innerHTML = fruta;
             ul.appendChild(li);
             
-        }, 500 * index)
+        }, 1000 * index)
     });
 
     // Deshabilito el botón para no agregar listas repetidas
